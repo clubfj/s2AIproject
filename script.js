@@ -127,6 +127,6 @@ function checkWinner(board) {
 
 function resetGame() {
   board.fill(null);
-  cells.forEach(cell => (cell.textContent = ""));
+  cells.forEach(cell => (cell.textContent = " "));
   currentPlayer = "X";
 }
